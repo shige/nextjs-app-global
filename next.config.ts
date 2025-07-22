@@ -25,6 +25,12 @@ const nextConfig: NextConfig = {
         hostname: JP_DOMAIN,
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'placehold.jp',
+        port: '',
+        pathname: '/**',
+      },
     ],
   },
 };
